@@ -4,6 +4,9 @@
     align-items: center;
     gap: 16px;
     cursor: pointer;
+    padding-left: 38px;
+    padding-right: 120px;
+
 }
 svg{
     width: 18px;
@@ -12,4 +15,7 @@ svg{
 .p{
     font-size: 18px;
     color: white;
+}
+.container:hover{
+    background-color: var(--secondary-color);
 }

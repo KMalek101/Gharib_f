@@ -3,18 +3,16 @@
     flex-direction: column;
     width: min-content;
     border-right: 1px solid var(--g-color);
+    height: 100vh;
 }
 .top{
     display: inline-flex;
     flex-direction: column;
     width: min-content;
-    padding-left: 38px;
-    padding-right: 120px;
     padding-top: 18px;
     border-bottom: 1px solid var(--secondary-color);
 }
 .community{
-    /* width: min-content; */
     border-bottom: 1px solid var(--secondary-color);
 }
 .community_scrol{
