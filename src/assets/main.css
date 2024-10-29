@@ -1,0 +1,14 @@
+:root{
+    --main-color : #201E1E;
+    --secondary-color: #292929;
+    --dark-color: #01060A;
+    --w-color: #fff;
+    --o-color: #DC9908;
+    --lighter-color: #9A9996;
+    --g-color: #585858;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-color);
+}

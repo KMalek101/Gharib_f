@@ -1,0 +1,15 @@
+.container{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+svg{
+    width: 18px;
+    height: 18px;
+}
+.p{
+    font-size: 18px;
+    color: white;
+}
