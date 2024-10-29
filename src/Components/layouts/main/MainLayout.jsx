@@ -6,7 +6,7 @@ function MainLayout() {
     return<>
         <div className="real">
             <Header />
-            {/* <SideBar /> */}
+            <SideBar />
         </div>
     </>
 }
