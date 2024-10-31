@@ -3,6 +3,7 @@
     flex-direction: column;
     width: min-content;
     border-right: 1px solid var(--g-color);
+    background-color: var(--main-color);
     height: 100vh;
 }
 .top{

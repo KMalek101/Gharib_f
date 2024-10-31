@@ -5,13 +5,14 @@
 }
 .input{
     background-color: #575757;
-    width: 400px;
+    width: 440px;
     height: 35px;
     border-radius: 10px;
     border: none;
     padding-left: 40px;
     outline: none;
     color: var(--w-color);
+    margin-right: -180px;
 }
 .svg{
     margin-right: -35px;
