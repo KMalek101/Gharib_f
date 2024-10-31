@@ -1,8 +1,11 @@
 .container{
     display: flex;
     flex-direction: column;
-    padding: 80px;
     padding-top: 140px;
+}
+.backgroundContainer{
+    padding-left: 180px;
+    padding-right: 180px;
 }
 .background{
     display: flex;
@@ -72,6 +75,8 @@
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .userList{
     color: var(--w-color);

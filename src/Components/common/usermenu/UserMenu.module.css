@@ -1,0 +1,26 @@
+.container{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    width: 150px;
+    z-index: 2;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.element{
+    color: var(--w-color);
+    font: 32px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.element:hover{
+    background-color: var(--tertiary-color);
+    font-weight: 600;
+    transition: 100ms ease;
+}

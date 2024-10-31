@@ -20,11 +20,6 @@ function Top() {
 }
 
 function SideBar() {
-    // [isOpen, setIsOpen] = useState(false);
-
-    // const toggleCommunity = () => {
-    //     setIsOpen(!isOpen);
-    // }
 
     return <>
         <div className={stylesSideBar.container}>

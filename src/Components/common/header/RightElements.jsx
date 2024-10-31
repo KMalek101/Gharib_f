@@ -4,13 +4,13 @@ import Notifications from "../iconButtons/Notifications"
 import AccountMenu from "../iconButtons/AccountMenu"
 import Quran from "../iconButtons/Quran"
 
-function RightElements() {
+function RightElements({ toggleUserMenu }) {
     return<>
         <div className={styles.container}>
             <Create />
             <Quran />
             <Notifications />
-            <AccountMenu />
+            <AccountMenu toggleUserMenu={toggleUserMenu} />
         </div>
     </>
 }

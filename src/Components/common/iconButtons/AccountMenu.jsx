@@ -1,8 +1,8 @@
 import styles from "./ButtonIcon.module.css"
 
-function AccountMenu() {
+function AccountMenu({ toggleUserMenu }) {
     return <>
-        <img className={styles.img} src="./public/electron.svg" alt="" />
+        <img onClick={()=>toggleUserMenu(true)} className={styles.img} src="./public/electron.svg" alt="" />
     </>    
 }
 
