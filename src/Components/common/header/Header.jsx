@@ -8,6 +8,10 @@ import UserMenu from "../usermenu/UserMenu";
 function Header() {
     const [toggleUserMenuBool, setToggleUserMenuBool] = useState(false);
     const toggleUserMenu = (prop) => {
+        if (toggleUserMenuBool) {
+            setToggleUserMenuBool(!toggleUserMenuBool);
+            return;
+        }
         setToggleUserMenuBool(prop);
         console.log(prop)
     }
